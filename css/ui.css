@@ -1,0 +1,266 @@
+/*Form layout */
+div.wa_form_ui fieldset{
+	margin-bottom:15px;
+	border-width:1px;
+	border-color:#E7E7E7;
+	border-style:solid;
+	border-radius:4px;
+	padding:0 15px 15px 15px;
+	width:95%;
+}
+div.wa_form_ui legend{
+	font-weight:bold;
+	white-space: nowrap;
+	width:auto;
+}
+div.wa_form_ui fieldset.radio div.iz-form-item label,
+div.wa_form_ui fieldset.check div.iz-form-item label{
+	padding-left:10px;
+}
+div.wa_form_ui fieldset.textgroup div.iz-form-item label{
+	padding-right:10px;
+}
+div.wa_form_ui fieldset.textgroup input,
+div.wa_form_ui fieldset.text input,
+div.wa_form_ui fieldset.textarea textarea,
+div.wa_form_ui fieldset.dropdown select{
+	width:97%;	
+}
+div.iz-form-item{
+	margin-top:5px;
+	margin-left:10px;
+}
+
+div.wa_form_ui div.error{
+	background: none repeat scroll 0 0 #FFD9D9;
+    border: 1px solid #FF0000;
+    border-radius: 7px 7px 7px 7px;
+    color: #000000;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 96%;
+}
+
+div.visual_form_settings {
+    background: linear-gradient(to right, #FFFFFF, #E7E7E7) repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #999999;
+    box-shadow: 6px 6px 4px #333;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 40px;
+    width: 252px;
+	z-index:999;
+}
+div.visual_form_settings label {
+    font-size: 11px;
+}
+div.visual_form_settings {
+   /* padding-top: 28px !important;*/
+}
+div.visual_form_settings .slider {
+    width: 78%;
+    margin-top: 6px;
+}
+div.visual_form_settings input.slider {
+    float: right;
+    width: 33px;
+    font-size: 10;
+    height: 22px;
+    margin-top: 12px;
+}
+input.color {
+   float: right;
+    font-size: 10px;
+    height: 29px;
+    margin-top: 1px !important;
+    width: 31%;
+}
+div.setting-holder{
+	clear:both;
+	margin-top:7px;
+}
+.current_selection{
+	outline:2px #e7e7e7 dashed !important;
+}
+.current_selection.faded{
+	outline:3px dashed #f1f1f1 !important;
+}
+.show_outline{
+	outline:2px #F7B850 dashed !important;
+}
+select.slider {
+    float: right;
+    width: 140px !important;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-family: verdana;
+    font-size: 10px;
+    border-radius: 4px;
+	margin-top: 1px !important;
+}
+div.setting-holder.select {
+    margin-top: 3px !important;
+}
+div.setting-holder {
+   border-bottom: 1px dotted #CCCCCC;
+    
+    clear: both;
+    height: 32px;
+    margin-left: 12px;
+    margin-top: 1px !important;
+    padding: 5px 5px 7px;
+    width: 89%;
+}
+div.setting-holder.select label,
+div.setting-holder.color label {
+    line-height: 31px;
+}
+
+div.visual_settings > div {
+    padding-bottom: 20px;
+}
+
+h3.ui-state-active {
+    font-weight: bold !important;
+}
+span.ui-accordion-header-icon {
+   float: left;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+h3.ui-accordion-header {
+    padding-left: 11px;
+    color: #666;
+    background: linear-gradient(to top, #FFFFFF, #E7E7E7) repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-family: arial;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ccc;
+    padding: 4px 4px 4px 11px;
+    font-weight: normal;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+div.element_title {
+  background: linear-gradient(to top, #FFFFFF, #F7B850) repeat scroll 0 0 #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    font-size: 13px;
+    font-weight: bold;
+    height: 11px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-top: 17px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    text-transform: capitalize;
+    width: 93%;
+}
+div.current_edit {
+    font-size: 10px;
+    margin-bottom: -14px;
+    margin-left: 16px;
+    padding-top: 4px;
+}
+div.visual_form_settings div.head {
+    background: url("../images/visual_form_editor_logo.png") repeat scroll 0 0 transparent;
+    height: 38px;
+	cursor:move;
+	position:relative;
+}
+div.visual_form_settings div.head div.minimize {
+    background: url("../images/minimize.png") no-repeat scroll 16px 3px transparent;
+    cursor: pointer;
+    height: 38px;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+}
+div.visual_form_settings div.head div.minimize:hover{
+	opacity:1;
+}
+
+div.color_pallet {
+   background: none repeat scroll 0 0 #F0F0F0;
+    box-shadow: 0 1px 1px #CCCCCC;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    width: 228px;
+}
+div.color_pallet div.theme_color {
+    box-shadow: 1px 1px 1px #999999;
+    cursor: pointer;
+    float: left;
+    height: 18px;
+    margin: 3px;
+    width: 19px;
+}
+div.color_pallet div.theme_color.transparent{
+	 box-shadow:none;
+	 border: 1px solid #000;
+	 height: 16px;
+	 width: 17px;
+}
+p.theme_color_head {
+    font-size: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+input.save_visual_settings {
+    margin: 12px 3px 12px 12px;
+	background-color: #E6E6E6;
+    background-image: linear-gradient(center top , #F4F4F4, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #D2D2D2;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+    color: #7C7C7C;
+    font-size: 0.785714rem;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 0.428571rem 0.714286rem;
+	cursor:pointer;
+}
+input.submit_form_entry,input.submit_form_entry:hover{
+	background-image:none !important;
+	background: linear-gradient(to top, #FFFFFF, #E7E7E7) repeat scroll 0 0 #F2F2F2;
+	width: 30%;
+	
+}
+input.revert_default{
+	/* margin: 12px; */
+}
+div.font-styles {
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 2px 0px 2px 0px;
+    width: 33px;
+    text-align: center;
+    margin-left: 5px;
+	background: linear-gradient(to top, #FFFFFF, #E7E7E7) repeat scroll 0 0 #F2F2F2;
+	cursor:pointer;
+}
+div.font-styles:hover {
+	background: linear-gradient(to top, #f2f2f2, #E7E7E7) repeat scroll 0 0 #F2F2F2;
+	border:1px solid #999;
+}
+div.font-styles.selected{
+	 background: linear-gradient(to top, #FFFFFF, #F7B850) repeat scroll 0 0 #CCCCCC;
+	 border:1px solid #666;
+}
+
+p.save_options input {
+    margin-top: 12px;
+}
+p.save_options {
+    margin: 15px 15px 4px 15px;
+    font-size: 11px;
+}
+p.save_options label{
+	cursor:pointer;
+}

@@ -1,0 +1,492 @@
+div.spacer {
+    height: 15px;
+}
+div.tutorial {
+    max-width: 450px;
+}
+div.chef {
+    width: 136px;
+    height: 175px;
+    float: left;
+}
+div.dismiss:hover {
+    background: #ccc;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+div.dismiss {
+    background: #e7e7e7;
+    width: 8px;
+    height: 16px;
+    padding: 0px 5px 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
+div.chef.normal {
+	background: url(../images/chef_normal.png) no-repeat;
+}
+div.chef.point_left {
+	background: url(../images/chef_left_point.png) no-repeat;
+}
+div.speach_bubble div.bubble_arrow {
+    background: url(../images/speach_bubble_arrow.png) no-repeat;
+    width: 23px;
+    height: 21px;
+    position: absolute;
+    left: -21px;
+    top: 50px;
+}
+div.extra_help,div.nextstep{
+	color:#21759B;
+	cursor:pointer;
+	margin-top:6px;
+}
+
+div.nextstep.next{
+	background: url("../images/go_forward.png") no-repeat scroll right center transparent;
+    float: right;
+    padding-right: 20px;
+	opacity:0.7;
+}
+div.nextstep.back{
+	background: url("../images/go_back.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    padding-left: 20px;
+	opacity:0.7;
+}
+div.nextstep.back:hover,div.nextstep.next:hover{
+	opacity:1;
+}
+div.extra_help div.confirm{
+	margin-top:6px;
+}
+	
+div.sub_bubble {
+    position: absolute;
+    /*right: -440px;*/
+    width: 0;
+    top: -30px;
+	background: #fff;
+    min-height: 52px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 3px 3px 5px #999;
+	display:none;
+}
+div.speach_bubble {
+   background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 3px 3px 5px #999999;
+    margin-left: 132px;
+    margin-top: -10px;
+    min-height: 52px;
+    padding: 15px;
+    position: relative;
+}
+p.help_text ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 9px;
+}
+p.help_text ul li ul li {
+    background: #fff;
+}
+p.help_text ul li input[type="text"],
+p.help_text ul li select,
+p.help_text ul li textarea{
+	width:70%;
+}
+
+.mce_button_example {
+    background: url(../tinyMCE/button.png) no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+div.draggable_forms div.widget {
+    float: left;
+    margin-left: 10px;
+}
+h3.field_type_heading {
+   
+    font-size: 12px !important;
+   
+}
+div.widget.iz-draggable.ui-draggable{
+	height:29px !important;
+}
+div.custom-fields-container{
+	float:left;
+	width:26%;
+	padding:20px;
+	border:1px dashed #CCC;
+	border-radius:7px;
+	background-color:#fff;
+	position:relative;
+	margin:10px 0 0 30px;
+}
+select#wap_wa_form_builder_Id{
+	width:350px !important;
+}
+div.custom-fields-container div.step{
+	position:absolute;
+	top:-15px;
+	left:-15px;
+	border-radius:15px;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	text-align:center;
+	color:#FFF;
+	background-color:#E7E7E7;
+	border:1px solid #CCC;
+}
+
+div.custom-fields-container.active{
+	border:1px dashed #999;
+}
+div.custom-fields-container.active div.step{
+	color:#333;
+	background-color:#C0E2F1;
+	border:1px solid #666;
+	font-weight:bold;
+}
+
+div.custom-fields input[type="text"],
+div.custom-fields select,
+div.custom-fields textarea{
+	width:236px;
+}
+
+
+div.iz-spacer{
+	height:10px;
+}
+
+.widget-holder{
+	padding-bottom:20px;
+	border-radius:0 0 7px 7px;
+	background-color:#f8f8f8 !important;
+	border:1px solid #CCC !important;
+}
+div.widget-holder.create_fields{
+	padding-bottom:30px !important;
+	background:linear-gradient(to top, #f2f2f2, #f9f9f9) repeat scroll 0 0 #f2f2f2 !important;
+}
+ul.opt-list{
+	/*margin-left:10px;*/
+	max-height:155px;
+	overflow-y:scroll;
+	padding-right:15px;
+}
+ul.opt-list input[type="text"]{
+	border:1px dashed #E7E7E7;
+	cursor:text;
+	padding:3px 10px;
+	border-radius:4px;
+}
+
+ul.opt-list li:hover input[type="text"],
+ul.opt-list li input[type="text"]:focus {
+	border:1px solid #CCC; 
+}
+
+
+ul.opt-list li div.sorthandle{
+	background:url(../includes/Core/images/icons/sort.png) no-repeat;
+	width:15px;
+	height:25px;
+	float:right;
+	cursor:move;
+	padding-right:12px;
+}
+ul.opt-list li div.remove{
+	background:url(../includes/Core/images/icons/close.png) no-repeat;
+	width:15px;
+	height:25px;
+	float:right;
+	cursor:pointer;
+}
+	
+div.backup{
+	display:none;
+}
+div.custom-field-actions{
+	float:right;
+	font-weight:normal;
+	margin-top:-999em;
+	cursor:default;
+}
+div.custom-field-actions span.delete {
+	color:#BC0B0B;
+	cursor:pointer;
+}
+
+div.custom-field-actions span.edit {
+	color:#21759B;
+	cursor:pointer;
+}
+
+div.custom-field-actions span.edit span:hover{
+	color:#D54E21;
+}
+
+div.custom-field-actions span.delete span:hover{
+	color:#FF0000;
+}
+
+div.widget-top:hover div.custom-field-actions{
+	margin-top:0;	
+}
+
+
+/*Form layout */
+div.iz-forms-holder fieldset{
+	margin:15px;
+	border:1px solid #E7E7E7;
+	border-radius:4px;
+	padding:0 15px 15px 15px;
+}
+div.iz-forms-holder legend{
+	font-weight:bold;
+}
+div.iz-forms-holder fieldset.radio div.iz-form-item label,
+div.iz-forms-holder fieldset.check div.iz-form-item label{
+	padding-left:10px;
+}
+div.iz-forms-holder fieldset.textgroup div.iz-form-item label{
+	padding-right:10px;
+}
+div.iz-forms-holder fieldset.textgroup input,
+div.iz-forms-holder fieldset.text input,
+div.iz-forms-holder fieldset.textarea textarea,
+div.iz-forms-holder fieldset.dropdown select{
+	width:270px;	
+}
+
+div.iz-form-item{
+	margin-top:5px;
+	margin-left:10px;
+}
+
+div.iz-sortable{
+	position:relative;
+}
+
+div.remove-field-group{
+	background:url(../includes/Core/images/icons/close.png) no-repeat;
+	width:15px;
+	height:25px;
+	cursor:pointer;
+	position:absolute;
+	top:2px;
+	right:15px;
+}
+div.sort-field-group{
+	background:url(../includes/Core/images/icons/sort.png) no-repeat;
+	width:15px;
+	height:25px;
+	cursor:move;
+	position:absolute;
+	bottom:7px;
+	right:17px;
+}
+
+div.data-array{
+	display:none;
+}
+
+div.saved_popup{
+	margin-bottom:-100px;
+	height:100px;
+	width:200px;
+	background:#D1FD77;
+	/* Safari 4-5, Chrome 1-9 */ 
+	/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D1FD77), to(#FFFFE0)); /* Safari 5.1, Chrome 10+ */ 
+	/*background: -webkit-linear-gradient(top, #D1FD77, #FFFFE0); /* Firefox 3.6+ */ 
+	/*background: -moz-linear-gradient(top, #D1FD77, #FFFFE0); /* IE 10 */ 
+	/*background: -ms-linear-gradient(top, #D1FD77, #FFFFE0); /* Opera 11.10+ */ 
+	/*background: -o-linear-gradient(top, #D1FD77, #FFFFE0);*/
+	box-shadow:0 0 10px 0px #333;
+	position:absolute;
+	border:1px solid #ADCB03;
+	border-radius:7px;
+	bottom:0;
+	right:20px;
+}
+
+
+div.saved_stamp{
+	position:absolute;
+	background:url(../includes/Core/images/saved_stamp.png);
+	width:103px;
+	height:90px;
+	display:none;
+	z-index:999999999999;
+}
+
+div#widgets-left div.form-field label,
+div#widgets-left div.form-field label:hover{
+	float:left;
+	margin-top:7px;
+	margin-left:10px;
+	font-weight:bold;
+	color:#444;
+}
+div#widgets-left div.sidebar-name div.form-field > select{
+	margin-left:10px;
+	/*width:auto !important;*/
+	min-width:205px;
+	float:left;
+	margin-top:5px;
+	border:1px solid #999;
+	background-color:#FFF;
+	color:#21759B;
+}
+
+div.drop-sort.over { box-shadow: 0 0 5px #000 }
+
+p.description.no-fields{
+	text-align:center;
+	padding-top:50px;
+}
+
+div.highlight{
+	display:none;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D1FD77), to(#FFFFE0)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #D1FD77, #FFFFE0); /* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #D1FD77, #FFFFE0); /* IE 10 */ 
+	background: -ms-linear-gradient(top, #D1FD77, #FFFFE0); /* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #D1FD77, #FFFFE0);
+	float: right;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+select optgroup.single-fields,select optgroup.multi-fields{}
+
+
+div.group_element_attr{
+	background-color:#f9f9f9;
+	border:1px solid #CCC;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	height:100px;
+	width:280px;
+	font-size:10px;
+	line-height: 24px;
+    padding: 10px 20px;
+	z-index:1000;
+	position:relative;
+}
+div.group_element_attr label{
+	width:70px;
+	display:block;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+}
+div.group_element_attr div.devider{
+	border-bottom:1px dashed #e7e7e7;
+	margin: 6px 0;
+}
+
+div.custom-fields div.gears{
+	position:relative;
+	z-index:49;
+	width:37px;
+	height:27px;
+	background:url(../images/gears_sprite.png) top left;
+	opacity:0.5;
+	cursor:pointer;
+	margin-top: -3px;
+	float: right;
+	
+}
+
+span.gears_example{
+	width:37px;
+	height:27px;
+	background:url(../images/gears_sprite.png) top left;
+	display: block;
+}
+
+
+div.custom-fields div.gears:hover{
+	opacity:0.6;
+}
+div.custom-fields div.gears.show{
+	background-position:-38px;
+	opacity:0.9;
+	background-color:#f9f9f9;
+	z-index:1001;
+}
+
+div.save_form_as {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+div.col-wrap.over table tr,div.col-wrap.over table {
+    /*background: linear-gradient(to top, #eee, #e7e7e7) repeat scroll 0 0 #f2f2f2;*/
+    display: none;
+}
+
+div.col-wrap.over div.drop_area{
+	display:block;
+}
+div.drop_area p {
+    line-height: 70px;
+    font-size: 40px;
+    color: #165A16;
+}
+div.drop_area {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background: linear-gradient(to top, #D0F4D0, #EEFBEE) repeat scroll 0 0 #F2F2F2;
+    border: 2px dashed #33CC33;
+    border-radius: 7px;
+	display:none;
+}
+
+
+#wpfooter{
+	position:relative !important;
+}
+
+div.view-tutorial a,
+div.exit-tutorial a {
+    background: url("../images/view_tutorial.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 45px;
+    position: absolute;
+    right: 8px;
+    top: 47px;
+    width: 178px;
+}
+div.exit-tutorial a{
+	 background: url("../images/exit_tutorial.png") no-repeat scroll 0 0 transparent;
+	 cursor:pointer;
+}
+div.exit-tutorial a.exit{
+	 background: url("../images/activate_tutorial.png") no-repeat scroll 0 0 transparent;
+	 cursor:pointer;
+}
+div.view-tutorial a:hover , div.exit-tutorial a:hover{
+    background-position: -178px 0;
+}
+
